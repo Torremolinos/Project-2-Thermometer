@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="desciption" content="Cambio la temperatura de Celsius a Farentheit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio de Celsius a Farentheit</title>
+</head>
+<body>
+    <h1>Conversor de Temperatura</h1>
+    <p>Ingresa la temperatura en grados Celsius</p>
+    <!--Pongo un imput para que el usuario meta el numero que quiera. Le doy un Id para que pueda interactuar con js.-->
+    <input type="number" id="celsius">
+    <!--Este boton lo pongo onclick con la function cambio, que hace el cambio de Celsius a Farentheit-->
+    <button onclick="cambio()">Convertir a Farentheit</button>
+    <!--Acabo haciendo un parrafo con un span interior para meterele un id que seran lo farentheit-->
+    <p>La temperatura en grados Farentheit es :<span id="f"></span></p>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
